@@ -1,0 +1,15 @@
+-Requerimiento: poder ir creando prendas y guardar borrador.
+
+La clase BorradorPrenda tiene como atributos los mismos que tiene una prenda completa, se pueden ir seteando estos atributos en borradorPrenda
+para ir creando la prenda de a partes, además la clase tiene el metodo crearPrenda() que usa un metodo privado para realizar todas las validaciones
+necesarias para concluir que es válida.
+
+-Sugerencia de uniformes armados por instituciones.
+
+La clase Uniforme puede sugerir al usuario un uniforme, para esto usa un strategy conociendo una Institución y cada institución crea las partes del
+uniforme(superior, inferior y calzado) según su propio criterio. Como ejemplo están las clases Johnson y SanJuan.
+
+-Tramas
+
+La trama es un atributo del material modelado como un enum. Cada prenda va a conocer y operar solo con su material, y la trama va a quedar como 
+un objeto calculable.
